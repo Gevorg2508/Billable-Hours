@@ -1,14 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Billable Hours</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
-<script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        id="logo"
+        src="./Images/Logo.png"
+        alt="Website logo"
+        width="15"
+        height="15"
+      />
+      <div class="logo">Web<strong>Work</strong></div>
+      <div class="headerElements">
+        <a href="somePage.com" class="headerElement">Home</a>
+        <a href="somePage.com" class="headerElement">Features</a>
+        <a href="somePage.com" class="headerElement">Features</a>
+        <a href="somePage.com" class="headerElement">Time Tracking</a>
+        <a href="somePage.com" class="headerElement">Price</a>
+        <a href="somePage.com" class="headerElement">Download</a>
+        <a href="somePage.com" class="headerElement">Log in</a>
+        <button id="getStarted">Get started</button>
+      </div>
+    </header>
+    <div class="circleElements">
+      <div class="logoAndText">
+        <img
+          id="dollarLogo"
+          src="./Images/dollarLogo.png"
+          alt="Dollar logo"
+          width="45"
+          height="45"
+        />
+        <div id="billableHours">Billable Hours</div>
+      </div>
+      <div class="circleBackground"></div>
+      <div id="description">
+        Set an hourly rate to your contracts to mark them as billable. Get
+        amount reports and<br />
+        <u>generate invoices</u> to get paid.
+      </div>
+      <button id="payButton">Start 7 Days Free Trial</button>
+      <div class="pay">Use now, pay in 30 days. No credit card required</div>
+    </div>
+    <img
+      id="firstPic"
+      src="./Images/firstPic.png"
+      alt="firstPic"
+      width="800"
+      height="500"
+    />
+    <div class="amountReports">
+      <img
+        id="amountPic"
+        src="./Images/amountPic.png"
+        alt="amountReports"
+        width="400px"
+        height="350px"
+      />
+      <div id="amountReports">
+        <strong id="amountHeader">Amount Reports</strong>
+        <div id="amountDescription">
+          If you’re working on an hourly rate, it will be a good idea to make
+          your contracts <br />billable by adding an hourly rate in the
+          contract's settings.
+        </div>
+        <div id="amountDescription">
+          By doing so your tracked time will be converted into an amount and you
+          will be<br />
+          able to see the reports both in hours and amounts. Amount reports show
+          the<br />
+          billed amount of each member by day, week or month.
+        </div>
+      </div>
+    </div>
+    <div class="permissions">
+      <div class="permissionsContent">
+        <div id="permissionsHeader">
+          <strong>
+            Permissions to Financial<br />
+            Information</strong
+          >
+        </div>
+        <div id="permissionsText">
+          The owner is eligible to give visibility of the contract's rate to
+          <br />certain team members. You can set up the rate visibility from
+          the<br />
+          member’s list.
+        </div>
+        <div id="permissionsText">
+          Setting “Show hourly rate” will mean the member is able to see all
+          <br />financial information related to his/her contract and
+          <u>role permission.</u>
+        </div>
+        <div class="permissionsBorder" id="permissionsText">
+          If a member has no permission to financial information, he/she cannot
+          view<br />
+          any kind of financial information, as well as is not able to generate
+          invoices.
+        </div>
+      </div>
+      <img
+        id="permissionsPic"
+        src="./Images/permPic.png"
+        alt="permissions picture"
+        width="380"
+        height="265"
+      />
+    </div>
+    <div class="workspace">
+      <div class="workspaceHeader">
+        <div id="workspaceText1">Workspace Permissions</div>
+        <div id="workspaceText2">
+          <strong> Financial Permissions for Member Types</strong>
+        </div>
+      </div>
+      <div class="workspaceContent">
+        <div id="workspaceList">
+          <div class="workspaceBlock1" id="workspaceBlock">
+            <img src="./Images/logo1.png" alt="first logo" />
+            <div id="blockText">Owner</div>
+          </div>
+          <hr id="workspaceHr1" />
+          <div id="workspaceBlockText">
+            Owner is eligible to set up the access of financial<br />
+            information on a workspace level.
+          </div>
+          <div id="workspaceBlock">
+            <hr id="workspaceHr2" />
+            <img src="./Images/logo2.png" alt="second logo" />
+            <div id="blockText">Executive Manager</div>
+          </div>
+          <div id="workspaceBlock">
+            <hr id="workspaceHr3" />
+            <img src="./Images/logo3.png" alt="third logo" />
+            <div id="blockText">Project Manager</div>
+          </div>
+          <div id="workspaceBlock">
+            <hr id="workspaceHr4" />
+            <img src="./Images/logo4.png" alt="forth logo" />
+            <div id="blockText">Employee</div>
+          </div>
+          <div id="workspaceBlock">
+            <hr id="workspaceHr5" />
+            <img src="./Images/logo5.png" alt="fifth logo" />
+            <div id="blockText">Client</div>
+          </div>
+        </div>
+        <img
+          id="workspacePic"
+          src="./Images/workspacePic.png"
+          alt="workspace picture"
+          height="230px"
+          width="510px"
+        />
+      </div>
+    </div>
+    <div class="features">
+      <div class="featuresHeader">
+        <div id="featuresText1"><strong>Features</strong></div>
+        <div id="featuresText2">Get The Most Out of Your Work</div>
+      </div>
+      <div class="featuresBlocks"></div>
+      <a class="moreFeatures" href="somepage.com"><u>More Features</u></a>
+    </div>
+    <div class="faqs">
+      <p id="faqsMainHeader"><strong>FAQs</strong></p>
+      <div class="faqsMainBlock">
+        <div id="faqsBlocks">
+          <hr id="faqsHr" />
+          <p id="faqsHeader">
+            Can I choose the currency for the generated amount?
+          </p>
+          <p id="faqsText">
+            Yes, if you are the Owner of the workspace you can choose your
+            preferred currency from the drop-down list<br />
+            of profile settings.
+          </p>
+        </div>
+        <div id="faqsBlocks">
+          <hr id="faqsHr" />
+          <p id="faqsHeader">Where can I view the amount reports?</p>
+          <p id="faqsText">
+            You can find the amount reports on the timesheet reports page. You
+            can view them both on hours and<br />
+            amounts.
+          </p>
+        </div>
+        <div id="faqsBlocks">
+          <hr id="faqsHr" />
+          <p id="faqsHeader">Where can I view the amount reports?</p>
+          <p id="faqsText">
+            You can go to members page from your dashboard, select your
+            preferred contract and put an hourly rate for<br />
+            a certain team member.
+          </p>
+        </div>
+        <div id="faqsBlocks">
+          <hr id="faqsHr" />
+          <p id="faqsHeader">Who can set an hourly rate?</p>
+          <p id="faqsText">
+            The owner and also the executive manager if the owner gives
+            permission to him/her.
+          </p>
+          <hr id="faqsHr" />
+        </div>
+        <div class="vector">
+          <img
+            id="vector1"
+            src="./Images/vector.png"
+            alt="Vector picture"
+            width="20px"
+            height="10px"
+          />
+          <img
+            id="vector2"
+            src="./Images/vector.png"
+            alt="Vector picture"
+            width="20px"
+            height="10px"
+          />
+          <img
+            id="vector3"
+            src="./Images/vector.png"
+            alt="Vector picture"
+            width="20px"
+            height="10px"
+          />
+          <img
+            id="vector4"
+            src="./Images/vector.png"
+            alt="Vector picture"
+            width="20px"
+            height="10px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="timeTracker">
+      <div class="square">
+          <img src="./Images/rectangle.png" alt="rectangle image" width="300" height="300">
+      </div>
+      <p class="description">
+        <strong
+          >Track Billable Hours with WebWork<br />
+          Time Tracker</strong
+        >
+      </p>
+      <div class="inputButton">
+        <input
+          id="trackerInput"
+          placeholder="         Your e-mail adress"
+          type="text"
+        />
+        <button id="trackerButton">Start 7 Days Free Trial</button>
+      </div>
+      <p id="paymentInformation">
+        Use now, pay in 30 days. No credit card required
+      </p>
+    </div>
+    <div class="columns"></div>
+    <div class="footer">
+      <div class="firstRow">
+        <img
+          src="./Images/footerLogo1.png"
+          alt="footer first logo"
+          width="15"
+          height="15"
+        />
+        <p id="footerText">Web <strong>Work</strong></p>
+        <img
+          src="./Images/footerLogo2.png"
+          alt="footer second logo"
+          width="40"
+          height="18"
+        />
+      </div>
+      <div class="secondRow">
+        <a id="footerLogo" href="https://www.youtube.com/"
+          ><img
+            src="./Images/youtubeLogo.png"
+            alt="youtube logo"
+            width="18"
+            height="15"
+        /></a>
+        <a id="footerLogo" href="https://www.vimeo.com/"
+          ><img
+            src="./Images/vimeoLogo.png"
+            alt="vimeo logo"
+            width="15"
+            height="15"
+        /></a>
+        <a id="footerLogo" href="https://www.facebook.com/"
+          ><img
+            src="./Images/facebookLogo.png"
+            alt="facebook logo"
+            width="15"
+            height="15"
+        /></a>
+        <a id="footerLogo" href="https://www.twitter.com/"
+          ><img
+            src="./Images/twitterLogo.png"
+            alt="youtube logo"
+            width="15"
+            height="15"
+        /></a>
+        <a id="footerLogo" href="https://www.instagram.com/"
+          ><img
+            src="./Images/instagramLogo.png"
+            alt="youtube logo"
+            width="15"
+            height="15"
+        /></a>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>

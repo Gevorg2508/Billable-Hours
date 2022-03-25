@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* display: none; */
+}
+header {
+  display: flex;
+  background-color: #ffffff;
+  padding: 6px;
+}
+.headerElements {
+  display: flex;
+  margin-left: 320px;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerElement {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.logo {
+  margin-top: 12px;
+  position: absolute;
+  margin-left: 200px;
+}
+#logo {
+  margin-left: 185px;
+  margin-top: 12px;
+}
+#getStarted {
+  padding: 10px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.circleElements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  background-color: #fafafc;
+  /* margin-right: 150px; */
+}
+.circleBackground {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+  background-color: #fafafc;
+  border-radius: 50%;
+  z-index: -1;
+  border-radius: 100%;
+}
+.logoAndText {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+#dollarLogo {
+  margin-top: 70px;
+  margin-right: 20px;
+}
+#billableHours {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Source Sans Pro";
+}
+#description {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 600px;
+  font-size: 10px;
+}
+#payButton {
+  padding: 10px;
+  width: 250px;
+  border-radius: 50px;
+  background-color: #8276ff;
+  margin-bottom: 10px;
+  color: white;
+}
+.pay {
+  font-size: 10px;
+  color: #ffc107;
+}
+
+#firstPic {
+  margin-left: 230px;
+}
+
+.amountReports {
+  display: flex;
+  flex-direction: row;
+}
+#amountReports {
+  display: flex;
+  flex-direction: column;
+}
+#amountPic {
+  margin-left: 200px;
+}
+#amountHeader {
+  font-size: 25px;
+  font-family: "Source Sans Pro";
+  margin-top: 25px;
+  margin-left: 75px;
+  padding: 15px;
+}
+#amountDescription {
+  font-size: 10px;
+  padding: 15px;
+  margin-left: 75px;
+  align-items: center;
+}
+
+.permissions {
+  height: 300px;
+  background-color: #92aafe;
+  display: flex;
+  flex-direction: row;
+}
+.permissionsContent {
+  display: flex;
+  flex-direction: column;
+}
+.permissionsBorder {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+#permissionsHeader {
+  margin-top: 10px;
+  margin-left: 190px;
+  padding: 20px;
+  line-height: 35px;
+  font-size: 25px;
+  font-family: "Source Sans Pro";
+  color: #ffffff;
+}
+#permissionsText {
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 205px;
+  font-size: 10px;
+  color: #ffffff;
+}
+#permissionsPic {
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.workspace {
+  height: 600px;
+}
+.workspaceHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+#workspaceText1 {
+  color: #ffbe5b;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "Source Sans Pro";
+  margin-left: 15px;
+}
+#workspaceText2 {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.workspaceContent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+#workspaceList {
+  display: flex;
+  flex-direction: column;
+}
+#workspaceBlock {
+  display: flex;
+  margin-left: 181px;
+  flex-direction: row;
+  padding: 15px;
+}
+#workspaceBlockText {
+  margin-left: 215px;
+  padding-bottom: 20px;
+}
+#blockText {
+  padding-left: 15px;
+  font-size: 15px;
+}
+.workspaceBlock1 {
+  position: absolute;
+  top: 1700px;
+  left: 18px;
+}
+#workspaceHr1 {
+  width: 95px;
+  transform: rotate(90deg);
+  margin-left: 150px;
+  padding-right: 15px;
+  background-color: #8276ff;
+  border: 1px solid #8276ff;
+}
+#workspaceHr2 {
+  width: 1px;
+  transform: rotate(180deg);
+  margin-right: 15px;
+  background-color: #ffb546;
+  border: 1px solid #ffb546;
+}
+#workspaceHr3 {
+  width: 1px;
+  transform: rotate(180deg);
+  margin-right: 15px;
+  background-color: #6385fd;
+  border: 1px solid #6385fd;
+}
+#workspaceHr4 {
+  width: 1px;
+  transform: rotate(180deg);
+  margin-right: 15px;
+  background-color: #33dba8;
+  border: 1px solid #33dba8;
+}
+#workspaceHr5 {
+  width: 1px;
+  transform: rotate(180deg);
+  margin-right: 15px;
+  background-color: #fd779f;
+  border: 1px solid #fd779f;
+}
+#workspacePic {
+  margin-left: 70px;
+}
+
+.features {
+  height: 600px;
+  background-color: #fcfcfd;
+}
+.featuresHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#featuresText1 {
+  font-family: "Source Sans Pro";
+  margin-top: 60px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#featuresText2 {
+  padding-bottom: 60px;
+}
+#featuresBlock1 {
+  padding: 100px;
+  border: solid green;
+}
+.featuresBlocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.newDivBlocks {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 200px;
+  height: 230px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  box-sizing: content-box;
+  border-radius: 50px;
+}
+#blockLogo {
+  width: 30px;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#blockHeader {
+  padding: 15px;
+  font-size: 15px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  inline-size: 150px;
+  writing-mode: horizontal-tb;
+}
+.moreFeatures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.faqsMainBlock {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+#faqsMainHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+#faqsBlocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-top: 20px;
+}
+#faqsHeader {
+  padding: 20px;
+  margin-left: 260px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+}
+#faqsText {
+  padding: 1px;
+  margin-left: 280px;
+  font-family: "Source Sans Pro";
+  line-height: 20px;
+}
+#faqsHr {
+  width: 760px;
+  margin-left: 280px;
+}
+#vector1 {
+  position: absolute;
+  top: 2980px;
+  left: 1000px;
+}
+#vector2 {
+  position: absolute;
+  top: 3100px;
+  left: 1000px;
+}
+#vector3 {
+  position: absolute;
+  top: 3220px;
+  left: 1000px;
+}
+#vector4 {
+  position: absolute;
+  top: 3340px;
+  left: 1000px;
+}
+
+.timeTracker {
+  height: 300px;
+  background-color: rgba(130, 118, 255, 0.05);
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+}
+.inputButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+#trackerInput {
+  height: 40px;
+  width: 350px;
+  border-radius: 50px;
+}
+.square {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+
+}
+#trackerButton {
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: #8276ff;
+}
+#paymentInformation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 310px;
+  color: #ffc107;
+}
+
+.columns {
+  height: 230px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-left: 150px;
+  /* z-index: 10000; */
+}
+.footerBlocks {
+  margin: 55px;
+  line-height: 30px;
+}
+
+.footer{
+    display: flex;
+    background-color: rgba(130, 118, 255, 0.04);
+    padding: 6px;
+    height: 50px;
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    /* margin-left: 40px; */
+}
+#footerText{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.secondRow{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+#footerLogo{
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
